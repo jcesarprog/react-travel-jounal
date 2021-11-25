@@ -1,0 +1,42 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+  font-family: "Inter", "sans-serif";
+  display: flex;
+  align-items: center;
+  &--img {
+    margin: 2rem;
+  }
+  &--info {
+    font-size: 1.5rem;
+    i {
+      color: #f55a5a;
+    }
+    &-country {
+      font-weight: 400;
+      padding-inline: 1rem;
+      letter-spacing: 2px;
+    }
+    &-link:link,
+    &-link:visited &-link:active {
+      color: #918e9b;
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 4rem;
+      padding-block: 0.5rem;
+    }
+    &-date {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    &-description {
+      color: #2b283a;
+      width: 50rem;
+    }
+  }
+}
